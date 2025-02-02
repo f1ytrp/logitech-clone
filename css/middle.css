@@ -1,0 +1,277 @@
+.carousel-container{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.carousel1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.carousel1 p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.carousel1 button{
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.carousel-text{
+    display: flex;
+    margin-left: 128px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+    gap: 25px;
+}
+
+.prev, .next{
+    width: 70px;
+}
+
+.carouseltop{
+    margin-bottom: 40px;
+}
+.carouseltop hr{
+    margin: auto;
+    color: #c4bfbf;
+}
+
+.carousel-item{
+    background-color: #F4F4F4;
+    padding: 30px 30px 30px 30px;
+    width: 180px;
+    height: 170px;
+}
+
+
+
+
+.Shop-Series{
+    gap: 20px;
+    margin-top: 200px;
+    background-color: #F4F4F4;
+}
+
+.Shop-Series h2{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+.shop1 img{
+    width: 386px;
+    object-fit: cover;
+    position: relative;
+}
+
+.Shop-Series img:hover{
+    filter: brightness(30%);
+    cursor: pointer;
+    transition: 0.1s;
+    opacity: 1;
+}
+
+.Shop-Series h3{
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -175px;
+    left: 50px;
+}
+
+.Shop-Series p{
+    font-size: 15px;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    top: -170px;
+    left: 50px;
+    z-index: 15;
+}
+
+.shop-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.shop-text p{
+    visibility: hidden;
+}
+
+.shop1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: -50px;
+}
+
+.shop2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 327px;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.creatives img{
+    width: 386px;
+    object-fit: cover;
+}
+
+.onthego img{
+    width: 793px;
+    height: 309.1px;
+}
+
+.onthego h3, .onthego p{
+    left: 240px;
+}
+
+
+
+
+.shop-products{
+    padding-top: 200px;
+}
+
+.shop-products h2{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+.shop-products img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.oneone{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.onetwo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.onethree{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.first img{
+    width: 387px;
+    object-fit: cover;
+}
+
+.mice-img, .combos-img, .headsets-img{
+    height: 500px;
+    position: relative;
+}
+
+.ipad-img, .keyboards-img, .webcams-img{
+    height: 210px;
+    position: relative;
+}
+
+.mice p, .combos p, .headsets p{
+    position: relative;
+    top: -450px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ipad p, .keyboards p, .webcams p{
+    position: relative;
+    top: -167px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
+.sustain-img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    margin-top: 125px;
+    position: relative;
+}
+
+.sustext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: -350px;
+}
+
+.sustext h2{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.sustext p{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sustext button{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    border-style: none;
+    background-color: #252A2C;
+    text-align: center;
+}
+
+.sustext button:hover{
+    background-color: transparent;
+    border: rgb(0, 0, 0) 2px solid;
+    color: rgb(0, 0, 0);
+    transition: 0.15s;
+    cursor: pointer;
+}
