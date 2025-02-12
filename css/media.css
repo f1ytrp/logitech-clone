@@ -1,0 +1,237 @@
+@media (max-width: 1000px) {
+    .nav-bar {
+      display: none;
+    }
+  
+    .navbartab {
+      display: flex;
+    }
+
+    .top{
+        display: none;
+    }
+
+    .header-image{
+        display: none;
+    }
+
+    .minheaderimg{
+        display: block;
+    }
+
+    .header-imagemob{
+        display: none;
+    }
+
+    .main-text{
+        display: none;
+    }
+
+    .main-textres{
+        display: block;
+    }
+
+    .main-buttons{
+        display: flex;
+        justify-content: center;
+    }
+
+    .side-menu{
+        display: block;
+    }
+
+    .section-1 img{
+        width: 29vw;
+    }
+
+    .section-1{
+        padding-left: 20px;
+    }
+
+    .onthego, .creatives, .coders{
+        display: none;
+    }
+
+
+    .first{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .onethree{
+        display: none;
+    }
+
+    .first img{
+        width: 45vw;
+        object-fit: cover;
+        height: 47vh;
+    }
+
+    .mice p, .combos p, .headsets p{
+        position: relative;
+        top: -300px;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .ipad p, .keyboards p, .webcams p{
+        position: relative;
+        top: -300px;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+    }
+
+
+
+    .footer1-middle, .footer1-right{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .footer3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .footer1-responsive{
+        display: block;
+    }
+
+    .footer1-middle, .footer1-right{
+        display: none;
+    }
+    
+}
+
+
+@media (max-width: 650px) {
+    .nav-bar {
+      display: none;
+    }
+  
+    .navbartab {
+      display: flex;
+    }
+
+    .top{
+        display: none;
+    }
+
+    .header-image{
+        display: none;
+    }
+
+    .minheaderimg{
+        display: none;
+    }
+
+    .header-imagemob{
+        display: block;
+    }
+
+    .main-text{
+        display: none;
+    }
+
+    .main-textres{
+        display: block;
+    }
+
+    .main-buttons{
+        display: flex;
+        justify-content: center;
+    }
+
+    .side-menu{
+        display: block;
+    }
+
+    .section-1 img{
+       width: 90%;
+    }
+
+    .section-1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        width: 90%;
+    }
+
+    .section-1 p{
+        width: 85%;
+    }
+
+    .onthego{
+        display: none;
+    }
+
+
+
+    .first{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .onethree{
+        display: none;
+    }
+
+    .onetwo{
+        display: none;
+    }
+
+    .first img{
+        width: 90vw;
+        object-fit: cover;
+    }
+
+    .mice p, .combos p, .headsets p{
+        position: relative;
+        top: -350px;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .ipad p, .keyboards p, .webcams p{
+        position: relative;
+        top: -400px;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .mice img{
+        height: 50vh;
+    }
+
+    .ipad img{
+        height: 70vh;
+    }
+
+    
+    .footer1-responsive{
+        display: block;
+    }
+
+    .footer1-middle, .footer1-right{
+        display: none;
+    }
+}

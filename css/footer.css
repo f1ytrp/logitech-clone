@@ -23,13 +23,16 @@
 .footer1{
     padding-top: 80px;
     display: flex;
-    justify-content: left;
-    gap: 260px;
-    padding-bottom: 50px;
+    justify-content: flex-start;
+    gap: 240px;
 }
 
 .footer1-left{
     margin-left: 50px;
+}
+
+.footer1-responsive{
+    display: none;
 }
 
 .footer2{
@@ -142,5 +145,4 @@
 .footer3-middle{
     display: flex;
     gap: 20px;
-    margin-left: -650px;
 }
